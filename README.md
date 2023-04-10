@@ -23,7 +23,7 @@ AnalysisViewTwitterHistory: This shows up all the posts or tweets made on twitte
 AnalyzeTwitterPosts: At first, this method fetches all the required information from the site. Then, perform tokenization, integrates all the values, and displays visual representations of the obtained results.
 TwitterSearchMenu: The purpose of this method is to search user input and then it finds the related relevant information (tweets). It then shows all the information and plots a graph showing input data results.
 
-![alt text](https://github.com/shahriar-rahman/Twitter-Sentiment-Analysis/blob/main/Block%20Diagram.PNG)
+![alt text](https://github.com/shahriar-rahman/Twitter-Sentiment-Analysis/blob/main/Schematic%20Diagram.PNG)
 
 ![alt text](https://github.com/shahriar-rahman/Twitter-Sentiment-Analysis/blob/main/Block%20Diagram.PNG)
 
