@@ -23,6 +23,9 @@ AnalysisViewTwitterHistory: This shows up all the posts or tweets made on twitte
 AnalyzeTwitterPosts: At first, this method fetches all the required information from the site. Then, perform tokenization, integrates all the values, and displays visual representations of the obtained results.
 TwitterSearchMenu: The purpose of this method is to search user input and then it finds the related relevant information (tweets). It then shows all the information and plots a graph showing input data results.
 
+![alt text](https://github.com/shahriar-rahman/Twitter-Sentiment-Analysis/blob/main/Block%20Diagram.PNG)
+
+![alt text](https://github.com/shahriar-rahman/Twitter-Sentiment-Analysis/blob/main/Block%20Diagram.PNG)
 
 ## Conclusions
 In this project, the primary focus is on the development of a system that is able to calculate the magnitude of human sentiment. Firstly, a clear and visually appealing UI is designed to ensure user convenience. Then all of the user’s tweets are then sifted. Afterward, the data is extracted from the Twitter site using a Twitter API which helps in constructing a system capable of processing every single tweet and analyzing the polarity value by performing syntactic word calculation. Lastly, it will show the overall sentiment of all the tweets and display it in a graphical representation.
