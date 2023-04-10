@@ -1,0 +1,12 @@
+import speech_recognition as sr
+r = sr.Recognizer()
+m = sr.AudioFile("ggg.wav");
+
+
+with m as source:
+    print("sss");
+    audioData = r.record(source);
+    print("done")
+type(audioData)
+text=r.recognize_google(audioData);
+print(text);

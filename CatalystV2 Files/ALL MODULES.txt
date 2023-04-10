@@ -1,0 +1,8 @@
+textblob
+tweepy
+webbrowser
+pyaudio
+speechRecognition
+pynput
+
+py -m pip install keyboard

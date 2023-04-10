@@ -1,0 +1,16 @@
+link :
+https://stackoverflow.com/questions/27885397/how-do-i-install-a-python-package-with-a-whl-file
+
+
+
+I just used the following which was quite simple. First open a console then cd to where you've downloaded your file like some-package.whl and use
+
+pip install some-package.whl
+
+Note: if pip.exe is not recognized, you may find it in the "Scripts" directory from where python has been installed. If pip is not installed, this page can help: How do I install pip on Windows?
+
+Note: for clarification
+If you copy the *.whl file to your local drive (ex. C:\some-dir\some-file.whl) use the following command line parameters --
+
+pip install C:/some-dir/some-file.whl
+

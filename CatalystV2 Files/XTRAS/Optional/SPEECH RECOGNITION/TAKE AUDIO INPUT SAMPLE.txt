@@ -1,0 +1,22 @@
+Are you planning to get audio from microphone in pieces or streaming? Either case , sounddevice may be employed.
+
+You can install the python module using
+pip install sounddevice --user
+
+Please refer to official site for API details.
+
+sounddevice will record audio from your laptop microphone (standard audio input) and play on speaker or headphones (standard audio output). You can use the sound object for further processing.
+
+import sounddevice as sd
+import numpy as np
+import scipy.io.wavfile as wav
+
+fs=44100
+duration = 5  # seconds
+myrecording = sd.rec(duration * fs, samplerate=fs, channels=2,dtype='float64')
+print "Recording Audio"
+sd.wait()
+print "Audio recording complete , Play Audio"
+sd.play(myrecording, fs)
+sd.wait()
+print "Play Audio Complete"
